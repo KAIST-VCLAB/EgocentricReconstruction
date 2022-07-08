@@ -1,0 +1,67 @@
+{
+  "step":"2345",
+  "slam_path":{
+    "openvslam_path":"./OpenVSLAM/build/video_pose",
+    "orb_path":"./OpenVSLAM/build/orb_vocab/"
+  },
+  "data_path":{
+    "data_root_path":"./demo",
+    "video_root_path":"input_video",
+    "depth_root_path":"depth",
+    "mesh_root_path":"mesh",
+    "rendering_root_path":"rendering_output",
+    "video_name":"sponza"
+  },
+  "depth_estimation":{
+    "base_pth":"./checkpoints/finetuned.pth",
+    "depth_scale":0.5,
+    "sample_ratio":1,
+    "second_neighbor_size":11,
+    "second_neighbor_interval":1,
+    "mask_radius":0.15
+  },
+  "mesh_generation":{
+    "solid_angle":0.0001,
+    "frame_interval":1,
+    "min_depth":0.005,
+    "max_depth":30,
+    "sky_depth_threshold":29,
+    "truncation":0.05,
+    "truncation_offset":0.5,
+    "truncation_change":1.5,
+    "weight_trunc_std":1000.5,
+    "node_sample_interval":5,
+    "min_sdf_cnt":0
+  },
+  "rendering_path":{
+    "scale_simple":1,
+    "scale_bbox":0.5,
+    "spline_num": 200,
+    "rendering_num": 200
+  },
+  "texture_mapping":{
+    "key_frame_num": 20,
+    "result_rendering_record": 0,
+    "result_rendering_record_one_cycle_only":1,
+    "blend_closest_C_frames": 1,
+    "result_rendering_frame_step": 1,
+    "texture_frame_idx_list_step": 10,
+    "stl_name":"mesh",
+    "input_trajectory_name":"traj",
+    "input_depth_dir_postfix": "_depth",
+    "result_rendering_trajectory_name":"traj_interpolation",
+    "texture_merge_take_max":1,
+    "texture_merge_topK": 1,
+    "texture_merge_topKoutlier_colorthreshold": 20,
+    "texture_map_max_sizeK": 10,
+    "result_rendering_fov": 90,
+    "result_rendering_h": 960,
+    "result_rendering_w": 960,    
+    "cube_side": 960,
+    "result_rendering_initial_rotation": [
+      [0, 0, -1],
+      [0,  1,  0],
+      [1, 0,  0]
+    ]
+  }
+}

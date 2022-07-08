@@ -1,0 +1,16 @@
+#==============#
+# Camera Model #
+#==============#
+Camera.name: "Insta360 One x"
+Camera.setup: "monocular"
+Camera.model: "equirectangular"
+Camera.fps: 30
+Camera.cols: 2048
+Camera.rows: 1024
+Camera.color_order: "RGB"
+#================#
+# ORB Parameters #
+#================#
+Feature.max_num_keypoints: 4000
+Feature.scale_factor: 1.2
+Feature.num_levels: 16
