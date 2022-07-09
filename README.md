@@ -1,6 +1,6 @@
 # Egocentric Scene Reconstruction from an Omnidirectional Video
 
-### [Project page](https://vclab.kaist.ac.kr/siggraph2022p2/index.html) | [Paper](https://vclab.kaist.ac.kr/siggraph2022p2/paper-acmtog-main-final.pdf) | [Presentation](https://vclab.kaist.ac.kr/siggraph2022p2/presentation_v6.pdf) | [360 RGBD Dataset](https://drive.google.com/drive/u/0/folders/0ANnOdFQH1DMEUk9PVA)
+### [Project page](https://vclab.kaist.ac.kr/siggraph2022p2/index.html) | [Paper](https://vclab.kaist.ac.kr/siggraph2022p2/paper-acmtog-main-final.pdf) | [Presentation](https://vclab.kaist.ac.kr/siggraph2022p2/presentation_v6.pdf) | [360 RGBD Dataset](https://drive.google.com/drive/folders/1VxufoWy-V8KexLJctHXdpKIcqxjEIrfY?usp=sharing)
 
 [Hyeonjoong Jang](http://vclab.kaist.ac.kr/hjjang/),
 [Andreas Meuleman](https://ameuleman.github.io),
